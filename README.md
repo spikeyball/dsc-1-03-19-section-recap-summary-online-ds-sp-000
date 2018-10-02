@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This short lesson summarizes the topics we covered in section 02 and why they'll be important to you as a Data Scientist.
+This short lesson summarizes the topics we covered in section 03 and why they'll be important to you as a data scientist.
 
 ## Objectives
 You will be able to:
@@ -11,9 +11,11 @@ You will be able to:
 * Understand and explain why this section will help you become a data scientist
 
 ## Key Takeaways
-In this section, we spent time deepening our Python skills and started to introduce some basic statistics that will be important as we work with various types of data sets later in the course.
-* **Functions and Methods** - Python has a range of functions and methods (methods are functions associated with an object) that can help us to perform a wide range of useful tasks quickly and efficiently
-* **Loops** - Loops aren't only for collections. While loops allow us to iterate until a condition is met, and we can use nested loops for more complicated situations (but should be careful about doing so too often)
-* **Custom Functions** - When you write a piece of code that you might want to use again, it often makes sense to save it in as a function, and you can add arguments to functions to allow them to be more flexibly in the ways they're reused.
-* **Measures of Centrality** - There are three common ways to measure the "central tendency" of a data set - the mean, the median and the mode. Each can be used to answer different questions and has strengths or weaknesses that depend on how the data is distributed.
-* **Measures of Dispersion** - THere are multiple measures of dispersion. The absolute deviation, variance, standard deviation and InterQuartile Range can all give us a sense of how closely or widely a data set is distributed from its central value. Again, this is going to be useful later in the course.
+In this section, we spent time getting comfortable with Pandas and Matplotlib and getting some more practice with exploratory data analysis. Some of the key takeaways:
+* For non-trivial data sets you'll usually want to store your data in Pandas data structures rather than native Python lists and dictionaries
+* Pandas has a range of great features for easily importing data from anything from a csv, an Excel file, json or a Python dictionary. 
+* Pandas Series and DataFrames have a bunch of powerful methods for munging data.
+* Pandas also has a range of methods for applying descriptive statistics to Series and DataFrames
+* Finally, by wrapping Matplotlib, Pandas also provides some very convenient plotting capabilities for quickly visualizing data
+
+We also got some experience working with the Boston Housing data set, and set up accounts on Kaggle - a really useful resource for practicing data scientists.
